@@ -9,7 +9,7 @@ In repository Settings → Pages, select **Deploy from a branch**, choose **main
 - `index.html`: homepage content
 - `projects/`: individual project pages
 - `style.css`: shared design
-- `assets/`: portrait, résumé, and team reports
+- `assets/`: portrait, resume, and team reports
 
 Replace the coming-soon text on project pages when demo links and screenshots are available. All internal links are relative so the site works under `/ivann-portfolio/`.
 
