@@ -9,3 +9,5 @@
 
 /* Square navigation blocks: the entire block is a link. */
 .hero .profile-nodes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;max-width:520px;margin-top:30px}.hero .profile-node{display:flex;align-items:center;justify-content:center;aspect-ratio:1;min-height:0;padding:8px;border:1px solid #bcc8b7;border-radius:0;background:#e9ede3;color:var(--ink);font-size:14px;font-weight:600;text-decoration:none;text-align:center;box-shadow:none}.hero .profile-node:hover{background:var(--green);border-color:var(--green);color:white;transform:translateY(-2px)}@media(max-width:480px){.hero .profile-nodes{grid-template-columns:repeat(2,minmax(0,1fr));max-width:320px;gap:12px}.hero .profile-node{font-size:16px}}
+
+.hero .profile-nodes{gap:10px}.hero .profile-node{aspect-ratio:auto;min-height:48px;padding:12px 10px}@media(max-width:480px){.hero .profile-nodes{max-width:100%}.hero .profile-node{font-size:14px;min-height:46px}}
