@@ -29,3 +29,5 @@
 .brand{display:inline-flex;align-items:center}.brand-mark{display:block;width:42px;height:42px}.brand:hover .brand-mark{opacity:.85}
 
 .navlinks{flex-wrap:wrap;justify-content:flex-end;gap:12px 24px}.navlinks a{padding:7px 0;border-bottom:1px solid transparent}.navlinks a:hover{border-bottom-color:var(--green)}@media(max-width:650px){.nav{align-items:flex-start;gap:20px}.navlinks{display:grid;grid-template-columns:repeat(2,auto);gap:4px 18px;font-size:12px}.navlinks a{padding:4px 0}}
+
+.presim-preview{display:flex;align-items:center;justify-content:center;height:230px;background:#fffdf7;overflow:hidden}.presim-preview img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .2s}.presim-preview:hover img{transform:scale(1.03)}@media(max-width:800px){.presim-preview{height:230px}}
